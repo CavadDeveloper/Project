@@ -14,7 +14,7 @@
     padding-top: 111px;
 }
 
-.kurs1 {
+.course1 {
     font-family: Roboto slab;
     font-size: 49px;
     margin-bottom: 34px;
@@ -24,7 +24,7 @@
     margin-left: 122px;
 }
 
-.kurs2 {
+.course2 {
     background-color: white;
     width: 791px;
     height: 451px;
@@ -35,7 +35,7 @@
     margin-left: 125px;
 }
 
-.metn {
+.textarea {
     width: 700px;
     height: 203px;
     font-size: 20px;
@@ -58,7 +58,7 @@
     margin-bottom: 29px;
 }
 
-.kurs3 {
+.course3 {
     height: 59px;
     font-size: 30px;
     font-family: "Roboto Slab", serif;
@@ -131,17 +131,17 @@
 
     }
 
-    .kurs1 {
+    .course1 {
         font-size: 4vw;
         margin-left: 0;
     }
 
-    .kurs2 {
+    .course2 {
         width: 70vw;
         margin-left: 0;
     }
 
-    .metn {
+    .textarea {
         width: 100%;
         font-size: 1.9vw;
         padding-left: 0;
@@ -152,7 +152,7 @@
         height: 14vw;
     }
 
-    .kurs3 {
+    .course3 {
         font-size: 2.8vw;
     }
 
@@ -207,20 +207,20 @@
         height: auto;
     }
 
-    .kurs1 {
+    .course1 {
         font-size: 7.1vw;
         width: 90%;
         margin-left: 0;
     }
 
-    .kurs2 {
+    .course2 {
         width: 85vw;
         margin-left: 0;
         padding: 6vw;
         border-radius: 6vw;
     }
 
-    .metn {
+    .textarea {
         width: 100%;
         font-size: 3vw;
         padding-left: 0;
@@ -236,7 +236,7 @@
         height: 25vw;
     }
 
-    .kurs3 {
+    .course3 {
         font-size: 4vw;
     }
 
