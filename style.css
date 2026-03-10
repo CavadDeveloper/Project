@@ -1,7 +1,289 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+}
+
+.feedback-section {
+    background-color: #EFEFEF;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 111px;
+}
+
+.kurs1 {
+    font-family: Roboto slab;
+    font-size: 49px;
+    margin-bottom: 34px;
+    width: auto;
+    max-width: 987px;
+    height: 93px;
+    margin-left: 122px;
+}
+
+.kurs2 {
+    background-color: white;
+    width: 791px;
+    height: 451px;
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-left: 125px;
+}
+
+.metn {
+    width: 700px;
+    height: 203px;
+    font-size: 20px;
+    line-height: 1.5;
+    padding-left: 45px;
+    font-family: "Roboto", serif;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.avatar {
+    width: 190px;
+    height: 169px;
+    border-radius: 50%;
+    padding-left: 26px;
+    margin-bottom: 29px;
+}
+
+.kurs3 {
+    height: 59px;
+    font-size: 30px;
+    font-family: "Roboto Slab", serif;
+}
+
+.face {
+    width: 32px;
+    height: 31px;
+}
+
+.course-start {
+    background: #8FB3B3;
+    padding: 90px 120px;
+}
+
+
+
+.start-title {
+    font-size: 49px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    font-family: Roboto slab;
+}
+
+
+.price-label {
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-family: Roboto;
+}
+
+.price {
+    font-size: 80px;
+    font-weight: 400;
+    margin-bottom: 60px;
+    font-family: Roboto;
+}
+
+
+.course-info {
+    display: flex;
+    gap: 120px;
+    max-width: 700px;
+}
+
+.info-box h4 {
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-family: Roboto;
+}
+
+.info-box p {
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: Roboto;
+}
+
+.course-container {
+    margin-left: 55px;
+}
+
+            /* PLANSET HISSE */
+
+@media (min-width:601px) and (max-width:991px) {
+
+    .feedback-section {
+        padding: 8vw;
+        height: auto;
+
+    }
+
+    .kurs1 {
+        font-size: 4vw;
+        margin-left: 0;
+    }
+
+    .kurs2 {
+        width: 70vw;
+        margin-left: 0;
+    }
+
+    .metn {
+        width: 100%;
+        font-size: 1.9vw;
+        padding-left: 0;
+    }
+
+    .avatar {
+        width: 14vw;
+        height: 14vw;
+    }
+
+    .kurs3 {
+        font-size: 2.8vw;
+    }
+
+    .face {
+        width: 3vw;
+        height: 3vw;
+    }
+
+    /* 2ci section */
+
+    .course-start {
+        padding: 8vw;
+        height: auto;
+    }
+
+    .course-container {
+        margin-left: 0;
+    }
+
+    .start-title {
+        font-size: 4vw;
+    }
+
+    .price-label {
+        font-size: 2.3vw;
+    }
+
+    .price {
+        font-size: 6vw;
+    }
+
+    .course-info {
+        gap: 6vw;
+    }
+
+    .info-box h4 {
+        font-size: 2.4vw;
+    }
+
+    .info-box p {
+        font-size: 1.6vw;
+    }
+
+}
+
+            /*TELEFON HISSE*/
+
+@media (min-width:375px) and (max-width:600px) {
+
+    .feedback-section {
+        padding: 10vw 6vw;
+        height: auto;
+    }
+
+    .kurs1 {
+        font-size: 7.1vw;
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .kurs2 {
+        width: 85vw;
+        margin-left: 0;
+        padding: 6vw;
+        border-radius: 6vw;
+    }
+
+    .metn {
+        width: 100%;
+        font-size: 3vw;
+        padding-left: 0;
+        margin-bottom: 7vw;
+    }
+
+    .user-info {
+        gap: 1vw;
+    }
+
+    .avatar {
+        width: 25vw;
+        height: 25vw;
+    }
+
+    .kurs3 {
+        font-size: 4vw;
+    }
+
+    .face {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    /* 2ci section */
+
+    .course-start {
+        padding: 10vw 6vw;
+        height: auto;
+    }
+
+    .course-container {
+        margin-left: 0;
+    }
+
+    .start-title {
+        font-size: 10vw;
+    }
+
+    .price-label {
+        font-size: 4vw;
+    }
+
+    .price {
+        font-size: 10vw;
+    }
+
+    .course-info {
+        display: flex;
+        flex-direction: row;
+        gap: 5vw;
+    }
+
+    .info-box h4 {
+        font-size: 4vw;
+    }
+
+    .info-box p {
+        font-size: 2.5vw;
+    }
+
+    .info-box {
+        width: 45%;
+    }
+
 }
