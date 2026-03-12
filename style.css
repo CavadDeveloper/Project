@@ -2,6 +2,136 @@
 
 *{
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+}
+.header-format{
+    font-weight: 700;
+    font-size: 55px;
+    color: #000000;
+    width: 667px;  
+    height: 93px;
+    margin-left: 121px;
+    margin-bottom: 89px;
+    margin-right: 652px;
+    font-family: "Roboto", sans-serif;
+}
+.jr-header{
+    font-weight: 700;
+    font-size: 25px;
+    color: #1E4681;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1px;
+    font-family: "Roboto", sans-serif;
+}
+.text-format{
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+    display: flex;
+    flex-direction: row;
+    font-family: "Roboto", sans-serif;
+}
+.main-card{
+    display: flex;
+    flex-direction: row;
+}.card1{
+    margin-left: 122px;
+}
+.card2{
+    margin-left: 122px;
+}
+.card3{
+    margin-left: 113px;
+}
+.header-what{
+    font-weight: 700;
+    font-size: 55px;
+    margin-left: 121px;
+    margin-bottom: 21px;
+    margin-top: 179px;
+    font-family: "Roboto", sans-serif;
+}
+.ul-what{
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+}
+.list-what{
+    margin-left: 138px;
+    margin-right: 640px;
+}
+@media screen and (min-width: 375px) and (max-width: 600px) {
+    .header-format{
+        width: 100%;
+        margin-left: 1.042vw;
+        margin-right: 1.042vw;
+        font-size: 26px;
+        height: auto;
+        margin-bottom: 16.66px;
+    }
+    .header-what{
+        width: 100%;
+        margin-left: 1.042vw;
+        margin-right: 1.042vw;
+        font-size: 26px;
+        height: auto;
+        margin-top: 73px;
+        margin-bottom: 9.66px;
+    }
+    .main-card {
+        flex-direction: column; 
+        gap: 1.563vw;
+    }
+    .card1, .card2, .card3 {
+        margin-left: 1.042vw;
+        margin-right: 1.042vw;
+    }
+    .list-what {
+        margin-left: 2.083vw;      
+        margin-right: 2.083vw;
+    }
+    .ul-what {
+        font-size: 12px;      
+    }
+    .jr-header{
+        font-size: 12px;
+    }
+    .text-format{
+        font-size: 10px;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 991px) {
+    .header-format, .header-what {
+        width: 90%;
+        margin-left: 2.604vw;
+        font-size: 32px;
+    }
+    .header-format{
+        margin-bottom:  40px;
+    }
+    .header-what{
+        margin-bottom: 12.16px;
+        margin-top: 103.55px;
+    }
+    .main-card {
+        flex-wrap: wrap; 
+    }
+    .card1, .card2, .card3 {
+        margin-left: 2.604vw;
+        margin-bottom: 1.042vw;
+    }
+    .list-what {
+        margin-left: 3.646vw;
+        margin-right: 2.604vw;
+    }
+    .jr-header{
+        font-size: 15px;
+    }
+    .text-format{
+        font-size: 11px;
+    }
+    .ul-what{
+        font-size: 14px;
+    }
 }
