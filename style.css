@@ -1,7 +1,204 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+}
+
+section {
+    padding: 0px 35px;
+}
+
+.roboto {
+    font-family: Roboto;
+}
+
+.roboto-slab {
+    font-family: "Roboto Slab";
+}
+
+.kinogroups {
+    display: flex;
+    gap: 11.6px;
+}
+
+.kinogroup {
+    display: flex;
+    gap: 4.5px;
+}
+
+.kinogroup p {
+    font-size: 10px
+}
+
+.kinogroup img {
+    width: 10px;
+}
+
+.newkino {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.newkino h1 {
+    font-size: 2.3em;
+    font-weight: 700;
+}
+
+.newkino p {
+    font-size: .875em;
+}
+
+.sitmanman {
+    text-align: end;
+}
+
+.longcamera {
+    display: none;
+}
+
+.sitmanman img {
+    height: 175px;
+}
+
+.kinobox {
+    margin-top: 38px;
+}
+
+.kinobox img {
+    width: 225px;
+}
+
+.kinocameramans {
+    margin-top: 73px;
+
+}
+
+.kinocameraman p {
+    margin-top: 9px;
+    font-size: 12px;
+}
+
+.cameramanright img {
+    width: 170px;
+    height: 160px;
+    margin-top: 20px;
+
+}
+
+.cameramanright {
+    display: flex;
+    justify-content: center;
+}
+
+.newkino {
+    width: 50%;
+}
+
+.cameratext {
+    display: flex;
+    gap: 54px;
+     margin-top: 45px;
+    flex-wrap: wrap;
+}
+
+.cameratext1 {
+    width: 86px;
+    height: 18px;
+}
+
+.cameratext1 h3 {
+    font-size: 12px;
+}
+
+.cameratext1 p {
+    font-size: 12px;
+}
+
+
+
+@media only screen and (min-width: 601px) {
+
+    h1 {
+        font-size: 46px !important;
+    }
+
+    .kinogroups p {
+        font-size: 12px;
+    }
+
+    .kinogroups {
+        gap: 25px;
+    }
+
+    .kinobox {
+        text-align: center;
+    }
+
+    .newskino {
+        display: flex;
+        gap: 100px;
+    }
+
+
+    .sitmanman img {
+        height: 207px;
+    }
+
+    .kinobox img {
+        width: 280px;
+    }
+
+
+}
+
+@media only screen and (min-width: 991px) {
+
+    h1 {
+        font-size: 80px !important;
+    }
+
+    .kinobox img {
+        width: 225px;
+    }
+
+    .kinogroups p {
+        font-size: 20px;
+    }
+
+    .kinogroups {
+        gap: 47px;
+    }
+
+    .kinobox {
+        text-align: center;
+    }
+
+    .newskino {
+        display: flex;
+        gap: 100px;
+    }
+
+    .newkino {
+        width: 330px;
+    }
+
+    .kinogroup img {
+        width: 20px;
+    }
+
+    .sitmanman img {
+        height: 356px;
+    }
+
+    .kinobox img {
+        width: 483px;
+    }
+
+
+
+
+
 }
